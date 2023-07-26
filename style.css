@@ -1,0 +1,121 @@
+
+body{
+    text-align: center;
+}
+
+.top-container{
+    background-color: #F2EAD3; 
+    padding-top: 150px;
+}
+
+h1{
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #3F2305;
+    margin: 50px auto 0 auto;
+}
+
+.sub-heading{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color : #3F2305; 
+}
+
+.ammar{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+h2{
+    font-size: 2.5rem;
+    color : #3F2305;  
+}
+
+h3{
+     color:#3F2305;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem
+}
+
+p{
+    line-height: 2;
+    padding-top: 0%;
+    text-align: left;
+    font-size: 19px;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows:repeat(1, 1fr);
+    width: 50%;
+    row-gap: 2rem;
+    margin: 100px auto 0 auto;
+    column-gap: 2rem;
+}
+
+.btn{
+    font-size: 20px;
+    color:#F2EAD3 ;
+    background-color : #3F2305;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container{
+    background-color:#F2EAD3 ;
+    padding: 50px 0 20px;
+}
+
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+
+}
+
+.copyright {
+    color:#3F2305;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.instagram{
+    text-decoration: none;
+    color:#3F2305;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .parent {
+      grid-template-columns: 1fr; /* One column for mobile devices, this will create four rows */
+      grid-template-rows: repeat(4, 1fr); /* Four rows for mobile devices */
+      width: 80%; /* You can adjust this width as needed for mobile devices */
+      margin: 50px auto 0 auto; /* You can adjust the margin as needed for mobile devices */
+    }
+  }
+
+
+    
+
+
+
+    
+  
+    
